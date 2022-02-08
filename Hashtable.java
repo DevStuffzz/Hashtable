@@ -88,4 +88,15 @@ public class Hashtable<T, K> {
 	public boolean containsKey(T key) {
 		return keys.contains(key);
 	}
+
+	/**
+	* Gets if the given value is in the hashmap
+	* @param value Value
+	* @return if the value is in the map
+	*/
+	public boolean containsValue(K value) {
+		return values.contains(value);
+	}
+
+	
 }
